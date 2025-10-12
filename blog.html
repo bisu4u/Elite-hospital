@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caretakers Health Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(110deg, #163445 44%, #2dcbe8 100%);
+      color: #f7ffff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      padding: 35px 0 24px 0;
+      background: rgba(13, 51, 77, 0.98);
+      text-align: center;
+    }
+    .logo-img {
+      width: 50px; height: 50px;
+      margin-bottom: 8px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #1ee981;
+    }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #15a58c;
+      margin-bottom: 7px;
+      font-weight: bold;
+    }
+    h2 { color: #19e3c5; margin-top: 0;}
+    main {
+      max-width: 850px;
+      margin: 40px auto 0;
+      background: rgba(255,255,255,0.13);
+      border-radius: 18px;
+      box-shadow: 0 2px 19px 0 rgba(36,185,182,0.13);
+      padding: 38px 23px 60px;
+    }
+    .blog-card {
+      background: rgba(255,255,255,0.17);
+      margin-bottom: 34px;
+      border-radius: 14px;
+      padding: 20px 13px 14px 13px;
+      box-shadow: 0 1px 8px #1ee9811a;
+      animation: blogAppear 1.1s;
+      color: #1e3348;
+    }
+    @keyframes blogAppear {
+      from {opacity: 0; transform:translateY(38px);}
+      to {opacity: 1; transform:translateY(0);}
+    }
+    .blog-title {
+      color: #1593a6;
+      font-size: 1.46rem;
+      margin-bottom: 12px;
+    }
+    .blog-preview-img {
+      width: 100%; max-width: 450px; border-radius: 13px;
+      margin: 0 0 12px 0;
+      box-shadow: 0 8px 24px 0 #157b884a;
+      display: block;
+    }
+    a.button-main {
+      display: inline-block;
+      padding: 10px 28px;
+      background: #1593a6;
+      color: #fff;
+      border-radius: 26px;
+      text-decoration: none;
+      font-size: 1.09rem;
+      margin: 0.9em 0 0 0;
+      font-weight: 600;
+      box-shadow: 0 1px 8px #13b0be1a;
+      transition: background 0.17s, transform 0.17s;
+    }
+    a.button-main:hover {
+      background: #19e3c5;
+      color: #113c44;
+      transform: scale(1.04) translateY(-2px);
+    }
+    .back-home {
+      text-align:center; margin: 34px 0 0 0;
+    }
+    @media (max-width:650px) {
+      main {padding: 18px 3px 24px;}
+      .blog-card {padding: 13px 4px;}
+      h1 {font-size: 1.32rem;}
+      header {padding: 16px 0;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" class="logo-img" alt="Caretakers Logo"/>
+    <h1>Caretakers Health Blog</h1>
+  </header>
+  <main>
+    <div class="blog-card">
+      <div class="blog-title">5 Tips for a Healthy Heart</div>
+      <img src="https://images.pexels.com/photos/6287765/pexels-photo-6287765.jpeg?auto=compress&w=750&q=80" class="blog-preview-img" alt="Healthy heart"/>
+      <p>
+        Discover expert advice from Caretakers' cardiology department. Learn about diet, exercise, and lifestyle changes that keep your heart healthy!
+      </p>
+      <a href="#" class="button-main">Read More</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-title">Cancer Prevention: Myths & Facts</div>
+      <img src="https://images.pexels.com/photos/7088482/pexels-photo-7088482.jpeg?auto=compress&w=800&q=80" class="blog-preview-img" alt="Cancer awareness"/>
+      <p>
+        Our oncology team debunks cancer myths and gives practical prevention guidance for every family.
+      </p>
+      <a href="#" class="button-main">Read More</a>
+    </div>
+    <div class="blog-card">
+      <div class="blog-title">What to Expect in Critical Care</div>
+      <img src="https://images.pexels.com/photos/3952231/pexels-photo-3952231.jpeg?auto=compress&w=800&q=80" class="blog-preview-img" alt="Critical care"/>
+      <p>
+        Get familiar with the ICU journey at Caretakers—equipment, expert care, support tips, and more.
+      </p>
+      <a href="#" class="button-main">Read More</a>
+    </div>
+    <div class="back-home">
+      <a href="index.html" class="button-main">Back to Home</a>
+    </div>
+  </main>
+</body>
+</html>

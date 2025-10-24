@@ -35,7 +35,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(45deg, transparent, rgba(255, 215, 0, 0.1), transparent);
+    background: linear-gradient(45deg, transparent, rgb(34, 84, 112), transparent);
     animation: shimmer 3s infinite;
     z-index: 1;
 }
